@@ -22,8 +22,6 @@ body {
     margin: 0 auto;
 }
 
-header {}
-
 .nav_img {
     width: 60px;
     background-color: #F55F39;
@@ -52,7 +50,6 @@ header {}
 
 }
 
-.nav_item {}
 
 .nav_item a {
     color: #222222;
@@ -106,7 +103,7 @@ main .container h2 {
     font-weight: 100;
     color: black;
     margin-left: 200px;
-    /* text-align: center; */
+    
 }
 
 main .container h2 a {
@@ -133,24 +130,27 @@ main .container .main_text {
 .main_link {
     width: 45%;
     font-size: 15px;
-   
+
 
 
 
 }
-.main_link a{
+
+.main_link a {
     background-color: #F55F39;
     padding: 10px 20px;
     transition: .6s;
     border-radius: 5px;
-    
+
 }
-.main_link a:hover{
+
+.main_link a:hover {
     transform: scale(1.2);
     background-color: #B8BDC9;
     color: #222222;
 }
-.main_link a h4, .link_text{
+
+.link_text {
     font-size: 10px;
     font-weight: 100;
     color: #FFFFFF;
@@ -158,3 +158,90 @@ main .container .main_text {
 
 }
 
+.how_title {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.how_title h2 {
+    color: #2BCA8B;
+    font-size: 25px;
+    width: 135px;
+    line-height: 30px;
+    font-weight: 100;
+
+}
+
+.how_title ul li p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #252061;
+
+}
+.how .container {
+    position: relative;
+    margin-bottom: 50px;
+}
+.meet {
+    position: absolute;
+    background-color: #252061;
+    padding-top: 25px;
+padding-bottom: 1px;
+    padding-left: 15px;
+    left: 50%;
+    bottom: 0.1px;
+    width: 444px;
+}
+
+.meet_img .meet_photo {
+    position: absolute;
+    width: 110px;
+}
+.png1{
+    right: 70%;
+    bottom: 10px;
+}
+.png2{
+    z-index:1 ;
+    right: 60%;
+    bottom: 5px;
+}
+.png3{
+    right: 50%;
+    bottom: 10px;
+}
+.meet_img {
+    position: relative;
+}
+
+.meet h5 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.meet p {
+    width: 280px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+}
+.meet_img a{
+    background-color: #2BCA8B;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 25%;
+    bottom: 50px;
+}
+.how_title{
+    margin-bottom: 50px;
+}
